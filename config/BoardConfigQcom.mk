@@ -27,6 +27,7 @@ ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8909 msm8916 msm8937 
   TARGET_USES_MEDIA_EXTENSIONS := true
 endif
 
-ifneq ($(filter msm7x27a msm7x30 msm8660 msm8960,$(TARGET_BOARD_PLATFORM)),)
-    TARGET_USES_QCOM_BSP_LEGACY := true
+# For pre-UM display and gps HAL
+ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8610 msm8974 msm8992 msm8994 msm8909 msm8916 msm8952 msm8976),true)
+  TARGET_USES_QCOM_BSP := true
 endif
