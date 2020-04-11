@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "remote":       "gitlab",
+        "repository":   "HardStyl3r/android_device_lge_g3-common",
+        "target_path":  "device/lge/g3-common",
+        "revision":     "aospa-10.0"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "HardStyl3r/android_device_lge_d855",
+        "target_path":  "device/lge/d855",
+        "revision":     "aospa-10.0"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "HardStyl3r/proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "HardStyl3r/android_kernel_lge_g3",
+        "target_path":  "kernel/lge/g3",
+        "revision":     "lineage-17.1"
+    },
+        {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    }
+]

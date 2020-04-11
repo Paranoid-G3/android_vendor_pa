@@ -44,6 +44,10 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
 
+# msm8974
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/d855/pa_d855.mk
+
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     pa_beryllium-userdebug \
@@ -66,25 +70,5 @@ COMMON_LUNCH_CHOICES += \
     pa_sagit-userdebug \
     pa_suzu-userdebug \
     pa_X00TD-userdebug \
-    pa_X01BD-userdebug
-
-# LG G3
-PRODUCT_MAKEFILES += \
-#    $(LOCAL_DIR)/d850/pa_d850.mk \
-#    $(LOCAL_DIR)/d851/pa_d851.mk \
-#    $(LOCAL_DIR)/d852/pa_d852.mk \
-#    $(LOCAL_DIR)/f400/pa_f400.mk \
-#    $(LOCAL_DIR)/g3ds/pa_g3ds.mk \
-#    $(LOCAL_DIR)/ls990/pa_ls990.mk \
-#    $(LOCAL_DIR)/vs985/pa_vs985.mk \
-    $(LOCAL_DIR)/d855/pa_d855.mk
-
-COMMON_LUNCH_CHOICES += \
-#    pa_d850-userdebug \
-#    pa_d851-userdebug \
-#    pa_d852-userdebug \
-#    pa_f400-userdebug \
-#    pa_g3ds-userdebug \
-#    pa_ls990-userdebug \
-#    pa_vs985-userdebug \
+    pa_X01BD-userdebug \
     pa_d855-userdebug

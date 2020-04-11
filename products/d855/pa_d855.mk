@@ -27,7 +27,7 @@ $(call inherit-product, device/lge/d855/device.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := d855
-PRODUCT_NAME := lineage_d855
+PRODUCT_NAME := pa_d855
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-D855
 PRODUCT_MANUFACTURER := LGE
